@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Jest with Bunx (Coverage)",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "bunx",  // Use bunx to run the command
+        "runtimeArgs": [
+          "jest",         // The command to run
+          "--coverage"    // The argument for code coverage
+        ],
+        "console": "integratedTerminal", // This will use VSCode's terminal
+        "internalConsoleOptions": "neverOpen", // Optional: Don't open the debug console
+        "skipFiles": [
+          "<node_internals>/**"
+        ]
+      }
+    ]
+  }
+  
