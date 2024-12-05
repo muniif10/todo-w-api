@@ -1,5 +1,5 @@
 # todo-w-api
-
+This is my small project to create a Todo list API that implements Jester for unit testing. The coverage given by jester is 100% but I haven't produced the frontend to interact with this little API (it is just ExpressJS)
 To install dependencies:
 
 ```bash
